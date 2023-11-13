@@ -65,7 +65,7 @@ class DatasetApp(QtWidgets.QWidget):
         class_files = [f for f in os.listdir(os.path.join(self.folderpath, class_label)) if f.endswith('.jpg')]
         if class_files:
             random.shuffle(class_files)
-            return os.path.join(self.folderpath, class_files.pop())  # ОШИБКА: не указываем подпапку class_label
+            return os.path.join(self.folderpath, class_label, class_files.pop())  # ИСПРАВЛЕНИЕ: добавляем подпапку class_label
         else:
             return None
 
