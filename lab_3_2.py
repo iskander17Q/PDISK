@@ -2,9 +2,9 @@ import os
 import shutil
 
 # Путь к исходному датасету
-source_directory = "C:\\Users\\foris\\Desktop\\PD-git\\PDISK\\lab_2\\dataset"
+source_directory = "C:\\Users\\foris\\Desktop\\PD-git\\PDISK\\lab-2\\dataset"
 # Путь к целевой директории
-target_directory = "C:\\Users\\foris\\Desktop\\PD-git\\PDISK\\lab_3\\dataset_2"
+target_directory = "C:\\Users\\foris\\Desktop\\PD-git\\PDISK\\lab-3\\dataset_2"
 
 # Создайте список классов
 classes = ["rose", "tulip"]
